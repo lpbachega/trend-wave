@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body style="min-height: 100vh;">
+    <div class="navbar">
+        <div class="navbar" id="home">
+            <ul>
+                <li><a href="index.html"><img src="images/icon.png" width="80px;"></a></li>
+                <li><a href="index.html"><div class="botoes">Home</div></a></li>
+            </ul>
+        </div>
+        <div class="navbar" id="lista">
+            <ul>
+                
+                <li><a href="form.html"><div class="botoes">Sugerir</div></a></li>
+                <li><a href="emalta.html"><div class="botoes">Em Alta</div></a></li>
+                <li><a href="index.html#sobre"><div class="botoes">Sobre</div></a></li>
+                <li><a href="#"><div class="botoes">Surpreenda-me!</div></a></li>  
+            </ul>
+        </div>
+    </div>
+    
+    <div class="centro">
+        <h1 class="titulos">Surpreenda-me!</h1>
+    </div>
+    <div class="centro">
+        <h1 class="subtitulo">Uma música misteriosa<br>baseada no seu gosto musical</h1>
+    </div>
+    
+    <div class="centro" id="animacao" style="flex-direction: column;">
+        <div  id="mystery">
+            <img src="images/Dire_Straits_-_Sultans_Of_Swing_picture_cover.jpg" width="350px" id="sultans">
+        </div>
+        <div class="centro animate_animated animate__fadeInLeft" id="sultansoftitle" >
+            <h1 id="musicname">Sultans of Swing</h1>
+            <h3 id="artist">Artista/Banda: Dire Straits</h3>
+            <h3 id="dateLanc">Data de Lançamento: 05/1978</h3>
+            <h3 id="gender">Gênero: Rock</h3>
+            <h3 id="time">Duração: 5:47</h3>
+        </div>
+    </div>
+    
+    <footer>
+        <h3 class="subtitulo">Desenvolvido por: Mateus Daroz e Lucas Piccirillo Bachega</h3>
+    </footer>
+    <script src="animation.js"></script>
+
+</body>
+</html>

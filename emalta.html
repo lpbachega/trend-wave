@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendWave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="navbar" id="home">
+            <ul><li><a href="index.html"><img src="images/icon.png" width="80px;"></a></li>
+                <li><a href="index.html"><div class="botoes">Home</div></a></li>
+            </ul>
+        </div>
+        <div class="navbar" id="lista">
+            <ul>
+                <li><a href="form.html"><div class="botoes">Sugerir</div></a></li>
+                <li><a href="emalta.html"><div class="botoes">Em Alta</div></a></li>
+                <li><a href="index.html#sobre"><div class="botoes">Sobre</div></a></li>
+                <li><a href="mystery.html"><div class="botoes">Surpreenda-me!</div></a></li>  
+            </ul>
+        </div>
+    </div>
+
+    <div class="centro">
+        <h1 class="titulos">Em Alta</h1>
+    </div>
+
+    <div class="centro">
+        <h1 class="subtitulo">Descubra novas músicas através<br> do nosso Top 9 Semanal</h1>
+    </div>
+
+    <div class="centro" id="espacado">
+        <div id="songimage"></div>
+        <button id="botaotrocar">></button>
+    <div class="centro" id="quebra">
+            <h1 id="musicname">No Surprises</h1>
+            <h3 id="artist">Artista/Banda: Radiohead</h3>
+            <h3 id="dateLanc">Data de Lançamento: 04/09/1995</h3>
+            <h3 id="gender">Gênero: Rock</h3>
+            <h3 id="time">Duração: 3:50</h3>
+        </div>
+    </div>
+
+    <div class="centro">
+        <table cellspacing="10px">
+            <tr>
+                <td id="1" onclick="acao(1)"><img src="https://m.media-amazon.com/images/I/715LZJ5qX0L._UF1000,1000_QL80_.jpg" width="200px"></td>
+                <td id="2" onclick="acao(2)"><img src="https://m.media-amazon.com/images/I/71MT2hjHBvL._UF1000,1000_QL80_.jpg" width="200px"></td>
+                <td id="3" onclick="acao(3)"><img src="https://m.media-amazon.com/images/I/81nFF-rXdRL._UF1000,1000_QL80_.jpg" width="200px"></td>
+            </tr>
+            <tr>
+                <td id="4" onclick="acao(4)"><img src="https://i.scdn.co/image/ab67616d0000b273fa747621a53c8e2cc436dee0" width="200px"></td>
+                <td id="5" onclick="acao(5)"><img src="https://m.media-amazon.com/images/I/71wntRXPjcL._UF1000,1000_QL80_.jpg" width="200px"></td>
+                <td id="6" onclick="acao(6)"><img src="https://upload.wikimedia.org/wikipedia/pt/f/f7/Chitãozinho_%26_Xororó_-_Cowboy_Do_Asfalto.jpeg" width="200px"></td>
+            </tr>
+            <tr>
+                <td id="7" onclick="acao(7)"><img src="https://upload.wikimedia.org/wikipedia/pt/1/1b/Zezé_Di_Camargo_%26_Luciano_%28álbum_de_1991%29.jpg" width="200px"></td>
+                <td id="8" onclick="acao(8)"><img src="https://upload.wikimedia.org/wikipedia/pt/7/76/Random_Access_Memories_capa.jpg" width="200px"></td>
+                <td id="9" onclick="acao(9)"><img src="https://i.scdn.co/image/ab67616d0000b2731cbb937b5dc5c3638a42cbc2" width="200px"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <br>
+
+    <footer>
+        <h3 class="subtitulo">Desenvolvido por: Mateus Daroz e Lucas Piccirillo Bachega</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

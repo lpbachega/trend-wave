@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendWave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="navbar" id="home">
+            <ul>
+                <li><a href="index.html"><img src="images/icon.png" width="80px;"></a></li>
+                <li><a href="index.html"><div class="botoes">Home</div></a></li>
+            </ul>
+        </div>
+        <div class="navbar" id="lista">
+            <ul>
+                <li><a href="form.html"><div class="botoes">Sugerir</div></a></li>
+                <li><a href="emalta.html"><div class="botoes">Em Alta</div></a></li>
+                <li><a href="index.html#sobre"><div class="botoes">Sobre</div></a></li>
+                <li><a href="mystery.html"><div class="botoes">Surpreenda-me!</div></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="centro">
+        <h1 class="titulos">Sugerir</h1>
+    </div>
+
+    <div class="centro">
+        <h1 class="subtitulo">Sugira uma música de sua escolha<br>para recomendar para outras pessoas</h1>
+    </div>
+
+    <div class="centro">
+        <div class="centro" id="divform" style="width: 50%;">
+            <form>
+                <h1 class="subtitulo" >Nome da Música:</h1>
+                    <input type="text" id="nomemusica" name="nomemusica" class="textareas" placeholder="(ex: No Surprises)" required accesskey="q" tabindex="1">
+                <h1 class="subtitulo">Nome do Artista/Banda:</h1>
+                    <input type="text" id="nomeartista" name="nomeartista" class="textareas" placeholder="(ex: Radiohead)" required accesskey="w" tabindex="2">
+                <h1 class="subtitulo">Data de Lançamento da Música:</h1>
+                    <input type="date" id="dtmusica" name="dtmusica" class="textareas" required accesskey="e" tabindex="3">
+                <h1 class="subtitulo">Gênero da Música:</h1>
+                
+                <select id="escolhatipo" name="escolhatipo" class="textareas" required accesskey="r" tabindex="4">
+                    <option value="Rock">Rock</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Hip-Hop">Hip-Hop</option>
+                    <option value="Sertanejo">Sertanejo</option>
+                    <option value="Eletrônica">Eletrônica</option>
+                    <option value="Jazz">Jazz</option>
+                </select>
+                
+                <h1 class="subtitulo">Duração da Música:</h1>
+                    <input type="text" id="tempomusica" name="tempomusica" class="textareas" size="7" placeholder="(ex: 03:55)"  required accesskey="t" tabindex="5">
+                <h1 class="subtitulo">Insira o Link da sua Música Abaixo:</h1>
+                    <input type="url" id="linkmusica" name="linkmusica" class="textareas" size="43" placeholder="(ex: https://youtu.be/LBt60dfwEBY?si=-ekA-1I-ELNjVSpU)" required accesskey="y" tabindex="6">
+                <h1 class="subtitulo">Envie uma Foto da Capa do Álbum:</h1>
+                    <input type="file" id="imagemmusica" name="imagemmusica" class="textareas" style="background-color: white;" accept="image/*" required accesskey="u" tabindex="7"><br>
+                <input type="submit" class="formbuttons" id="btnenviar" style="width: 30%; margin: 4% 2% 2% 2%;" value="Enviar" accesskey="i" tabindex="8">
+                <input type="reset" class="formbuttons" id="btnresetar" style="width: 30%; margin: 4% 2% 2% 2%;" value="Limpar" accesskey="o" tabindex="9"> 
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <h3 class="subtitulo">Desenvolvido por: Mateus Daroz e Lucas Piccirillo Bachega</h3>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
